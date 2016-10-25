@@ -1,12 +1,12 @@
-// A feladat tehát adott, töröld ki a vizslák adatait a listából.
+package egypercesek.kutyasFeladat;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class KutyasFeladat
 {
+
+    // A feladat tehát adott, töröld ki a vizslák adatait a listából.
     public void test()
     {
         List<Kutya> kutyaList = kutyakList();
@@ -14,7 +14,7 @@ public class KutyasFeladat
 
         for(Kutya kutya : kutyaList)
         {
-            if(!kutya.getFajta().equals("vizsla"))
+            if("vizsla".equals(kutya.getFajta()))
             {
                 vizslaNelkuli.add(kutya);
             }
@@ -25,7 +25,6 @@ public class KutyasFeladat
             System.out.println(dog);
         }
     }
-
 
     private List<Kutya> kutyakList()
     {

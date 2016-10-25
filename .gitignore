@@ -1,2 +1,8 @@
+.idea/
+.idea/misc.xml
+.idea/workspace.xml
 idea/
-out/production/Practice/
+out/
+src/resource
+*.xml
+
