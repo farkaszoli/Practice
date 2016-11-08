@@ -1,6 +1,4 @@
-import egypercesek.booleanEgyszerubben.BooleanEgyszerubben;
-import egypercesek.stringCounter.StringCounter;
-import egypercesek.tobbszorosMegszamlalas.TobbszorosMegszamlalas;
+import egypercesek.novenyek.NovenyekFeladat;
 
 public class Main
 {
@@ -38,7 +36,14 @@ public class Main
 //        BooleanEgyszerubben booleanEgyszerubben = new BooleanEgyszerubben();
 //        booleanEgyszerubben.egyszerubb();
 
-        TobbszorosMegszamlalas tobbszorosMegszamlalas = new TobbszorosMegszamlalas();
-        tobbszorosMegszamlalas.szamol();
+//        TobbszorosMegszamlalas tobbszorosMegszamlalas = new TobbszorosMegszamlalas();
+//        tobbszorosMegszamlalas.szamol();
+
+        NovenyekFeladat novenyekFeladat = new NovenyekFeladat();
+        novenyekFeladat.beolvas();
+        novenyekFeladat.gyujtik();
+        novenyekFeladat.szamol();
+        novenyekFeladat.egyszobol();
+        novenyekFeladat.gyujtikMintACsalant();
     }
 }
